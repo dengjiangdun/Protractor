@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="angle_text_size">16sp</dimen>
+    <dimen name="angle_text_view_padding_top">16dp</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TextureView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera_preview"/>
+    <com.antaiui.protractor.ProtractorView
+        android:layout_width="match_parent"
+        android:id="@+id/protractor_view"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/pointer_icon"
+        android:layout_gravity="center"
+        android:id="@+id/pointer_one"
+        android:visibility="gone"
+        android:layout_height="250dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tv_angle"
+        android:paddingTop="@dimen/angle_text_view_padding_top"
+        android:textSize="@dimen/angle_text_size"
+        android:textColor="@color/angle_text_color"
+        android:layout_gravity="center_horizontal"/>
+
+</FrameLayout>
